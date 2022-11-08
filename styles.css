@@ -143,3 +143,39 @@ a:link, :visited{
     font-weight: 400;
     margin-top: 5px;
 }
+
+.secondBody{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 350px;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 0px 450px;
+    margin-top: 10px;
+}
+
+.author{
+    display: flex;
+    padding: 15px 450px;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.signup{
+    display: flex;
+    height: 350px;
+    background-color: #1F2937;
+}
+
+.signupbox{
+    display: flex;
+    height: 200px;
+}
