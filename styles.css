@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+    height: 350px;
+}
+
+.container{
+    display: flex;
+    padding: 0px 50px;
+    flex: 1;
+}
+
+.logo{
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    font-weight: 800;   
+    padding-top: 16px; 
+    color: #f9faf8;
+}
+
+.links{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    font-size: 12px;
+    padding-top: 16px;
+    gap: 36px;
+}
+
+.headertext{
+    display: flex;
+    flex: 3;
+    padding: 16px 50px;
+    justify-content: space-between;
+}
+
+.headertitle{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.headermaintitle{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.headersubtext{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 32px 0px 0px;
+    flex: 1;
+    color: #e5e7eb;
+}
+
+.headersmallertext{
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 200;
+}
+.photo{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.button{
+    display:flex;
+    width: 80px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: center;
+}
+
+a:link, :visited{
+    color: white;
+    text-decoration: none;
+}
