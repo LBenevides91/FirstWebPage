@@ -86,7 +86,7 @@ body {
     height: 150px;
 }
 
-.button{
+.buttonheader{
     display:flex;
     width: 80px;
     background-color: #3882f6;
@@ -171,11 +171,60 @@ a:link, :visited{
 
 .signup{
     display: flex;
+    flex-grow: 1;
     height: 350px;
-    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
 }
 
 .signupbox{
     display: flex;
-    height: 200px;
+    height: 170px;
+    width: 1000px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.signuptext{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.signupsubtext{
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.buttonsignup{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #e5e7eb;
+    font-weight: 800;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 200px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    padding-top: 25px;
 }
